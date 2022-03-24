@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+header{
+   
+   display: flex;
+   font-size: 1.5rem;
+   justify-content: flex-end;
+   
+}
+header div:nth-child(1){
+    width: 13rem;
+    
+}
+header div a{
+    margin-right: 5px;
+    text-decoration: none;
+}
+header div a:hover{
+    border-bottom: 1px solid;
+}
+header div:nth-child(2) a:hover{
+    background-color: gray;
+}
+header div:nth-child(3) a:hover{
+    background-color: gray;
+}
+
+.header {
+    display:flex;
+    align-items: center;
+    width: 5rem;
+    height: 5vh;
+   
+}
+
+.header img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 40px;
+    object-fit: cover;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+}
+
+main img{
+    width: 45rem;
+    height: 30rem;
+ 
+}
+
+
+input {
+	font:inherit;
+    width: 30rem;
+}
+
+main div:nth-child(2) {
+	display: flex;
+	background:#fff;
+    width: 45rem;
+	padding: 9px 22px 9px 26px;
+	border-radius: 30px;
+	border:2px solid #cad3dc;
+	box-shadow: rgba(255, 255, 255, 0.5) -8px -8px 15px,
+		rgba(0, 0, 0, 0.1) 10px 10px 10px,
+		rgba(255, 255, 255, 0.5) -8px -8px 15px inset,
+		rgba(0, 0, 0, 0.1) 10px 10px 10px inset;
+}
+
+
+main div input {
+	border:none;
+	background: transparent;
+	font-weight: bold;
+	
+	
+}
+
+
+.button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    height: 36px;
+    line-height: 27px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: pre;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+  
+  .button:hover {
+    border-color: #dadce0;
+    box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+    color: #202124;
+  }
+  
+  .button:focus {
+    border-color: #4285f4;
+    outline: none;
+  }
+
+  footer{
+      display: flex;
+      flex-direction: column;
+      margin-top: 35vh;
+            
+  }
+
+  footer div:nth-child(1){
+      background-color: grey;
+      height: 20px;
+      
+  }
